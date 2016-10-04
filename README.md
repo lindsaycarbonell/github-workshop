@@ -1,2 +1,2 @@
 # github-workshop
-An advanced workshop for teaching Git/GitHub.
+An advanced workshop for teaching Git/GitHub!
