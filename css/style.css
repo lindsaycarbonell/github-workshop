@@ -1,0 +1,108 @@
+/*To do:
+Get images working in sidebar for desktop
+Add modal: http://stackoverflow.com/questions/10284419/open-modal-window-from-iframe-into-the-parent*/
+
+
+
+#mapid {
+  height: 550px;
+  width: 80vw;
+  display:inline-block;
+}
+
+#sidebar{
+  display:inline;
+  float:right;
+  height:550px;
+  overflow-y:scroll;
+}
+
+.side-box{
+  width:17vw;
+}
+
+#side-title{
+  margin:0;
+  margin-top:10px;
+}
+
+.side-icon{
+  width:35px;
+  float:left;
+}
+
+.side-image{
+  width:200px;
+  margin-bottom:5px;
+}
+
+.side-image-box:last-child{
+  margin-bottom:0;
+}
+
+.side-content{
+  margin-top:25px;
+}
+
+
+
+.bottom-content{
+  width:200px;
+  display:inline-block;
+  white-space:normal;
+}
+
+.bottom-title{
+  margin-bottom:0;
+  display:inline-block;
+}
+#bottom-bar{
+    overflow-x:scroll;
+    width:100vw;
+    display:inline-block;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.bottom-image-box{
+    text-align: center;
+    /*float:right;*/
+    display:inline-block;
+    margin: 0 auto;
+}
+
+.bottom-image{
+    max-width:200px;
+    display: inline-block;
+    float:right;
+    white-space: normal;
+    margin-right: 20px;
+    margin-left: 3px;
+    vertical-align: top;
+
+}
+
+
+
+.leaflet-container.dark .map-tooltip .close, .leaflet-control-attribution:after, .leaflet-control-layers-toggle, .leaflet-control-zoom-in, .leaflet-control-zoom-out, .leaflet-popup-close-button, .map-tooltip .close, .mapbox-icon{
+  background-image:none;
+}
+
+.leaflet-bar{
+  box-shadow:none;
+}
+.leaflet-bar a, .leaflet-bar a:hover{
+  border-bottom-color:rgba(0,0,0,.4);
+}
+
+@media (max-width:840px){
+  #sidebar{
+    display:none;
+  }
+  #mapid{
+    width:100%;
+    margin:0 10px 0 10px;
+  }
+}
